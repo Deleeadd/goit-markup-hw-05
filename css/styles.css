@@ -644,7 +644,7 @@ a {
   margin-bottom: 16px;
 }
 
-.modal-label {
+.modal-label-input {
   display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -727,6 +727,17 @@ a {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-label-textarea {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+
 textarea::placeholder {
   display: block;
   font-family: "Roboto", sans-serif;
@@ -797,6 +808,4 @@ textarea::placeholder {
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
