@@ -463,9 +463,34 @@
             </li>
           </ul>
         </div>
+        <div class="container-input-btn"></div>
+        <p class="icon-footer-text">Subscribe</p>
+        <form class="footer-form">
+          <label class="footer-label-input">
+            <input
+              type="email"
+              class="footer-input"
+              name="user-email"
+              placeholder="E-mail"
+            />
+          </label>
+          <input
+            type="email"
+            class="footer-input"
+            name="user-email"
+            id=""
+            placeholder="E-mail"
+          />
+          <button type="submit" class="footer-input-button">
+            Subscribe
+            <svg class="footer-icon-input" width="24" height="24">
+              <use href="./images/icons.svg#icon-plane"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -516,8 +541,10 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field-input">
-            <label for="user-comment" class="modal-label-textarea"
+          <div class="modal-field-textarea">
+            <label
+              for="user-comment"
+              class="modal-label-textarea modal-label-input"
               >Comment</label
             >
             <textarea
